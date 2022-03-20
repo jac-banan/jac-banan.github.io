@@ -153,7 +153,7 @@ function transliterate(){
                 i++
             }
             else if(check_Ą(char1)){
-                cyrylicText += 'я';
+                cyrylicText += 'ѭ';
                 i++
             }
             else{
@@ -182,7 +182,7 @@ function transliterate(){
                 i++
             }
             else if(check_Ą(char1)){
-                cyrylicText += 'Я';
+                cyrylicText += 'Ѭ';
                 i++
             }
             else{
