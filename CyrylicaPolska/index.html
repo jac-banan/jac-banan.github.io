@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Polska Cyrylica</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns" style="margin-top: 8%">
+        <h4>Przetransliteruj Polski Skrypt Łaciński na Polską Cyrylice</h4>
+      </div>
+    </div>
+    <label for="w3review">Skrypt Łaciński:</label>
+    <div class="row">
+      <div class="twelve columns">
+        <textarea id="latin" name="Latin" class="textarea"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <button type="button" onclick="transliterate()">Transliteruj</button>
+      </div>
+    </div>
+    <label for="w3review">Cyrylica:</label>
+    <div class="row">
+      <div class="twelve columns">
+        <textarea id="cyrylic" name="Cyrylic" class="textarea" readonly></textarea>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
+<script src="js\HomePage.js"></script>
