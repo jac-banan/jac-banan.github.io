@@ -189,6 +189,13 @@ function transliterate(){
                 cyrylicText += 'Й'
             }
         }
+        //K
+        else if(char0 == 'k'){
+            cyrylicText += 'к'
+        }
+        else if(char0 == 'K'){
+            cyrylicText += 'К'
+        }
         //L
         else if(char0 == 'l'){
             cyrylicText += 'ль'
@@ -269,7 +276,7 @@ function transliterate(){
             if(check_RZ_SZ_CZ(char1)){
                 var char2 = latinText.charAt(i+2);
                 var char3 = latinText.charAt(i+3);
-                
+
                 if(check_SZCZ(char2,char3)){
                     cyrylicText += 'щ';
                     i += 3;

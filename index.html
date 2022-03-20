@@ -36,7 +36,7 @@
         <h4>Przetransliteruj Polski Skrypt Łaciński na Polską Cyrylice</h4>
       </div>
     </div>
-    <label for="w3review">Skrypt Łaciński:</label>
+    <label for="latin">Skrypt Łaciński:</label>
     <div class="row">
       <div class="twelve columns">
         <textarea id="latin" name="Latin" class="textarea"></textarea>
@@ -47,12 +47,242 @@
         <button type="button" onclick="transliterate()">Transliteruj</button>
       </div>
     </div>
-    <label for="w3review">Cyrylica:</label>
+    <label for="cyrylic">Cyrylica:</label>
     <div class="row">
       <div class="twelve columns">
         <textarea id="cyrylic" name="Cyrylic" class="textarea" readonly></textarea>
       </div>
     </div>
+    <table>
+      <tbody>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">Cyrylica&nbsp;</td>
+      <td style="height: 23px;">&nbsp;Skrypt Łaćiński</td>
+      <td style="height: 23px;">Notatki&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;а&nbsp;А</td>
+      <td style="height: 23px;">&nbsp;a A</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;б&nbsp;Б</td>
+      <td style="height: 23px;">&nbsp;b B</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;в&nbsp;В</td>
+      <td style="height: 23px;">&nbsp;w W</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;г&nbsp;Г</td>
+      <td style="height: 23px;">&nbsp;h H</td>
+      <td style="height: 23px;">Wersja z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ґ Ґ</td>
+      <td style="height: 23px;">g G</td>
+      <td style="height: 23px;">Litera z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;д&nbsp;Д</td>
+      <td style="height: 23px;">&nbsp;d D</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;е&nbsp;Е</td>
+      <td style="height: 23px;">&nbsp;e E</td>
+      <td style="height: 23px;">Wersja z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ж&nbsp;Ж</td>
+      <td style="height: 23px;">&nbsp;ż Ż</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;з&nbsp;З</td>
+      <td style="height: 23px;">&nbsp;z Z</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">зь Зь</td>
+      <td style="height: 23px;">ź Ź</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;и&nbsp;И</td>
+      <td style="height: 23px;">&nbsp;y Y</td>
+      <td style="height: 23px;">Wersja z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;і І</td>
+      <td style="height: 23px;">i I</td>
+      <td style="height: 23px;">Litera z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ї Ї</td>
+      <td style="height: 23px;">ji JI</td>
+      <td style="height: 23px;">Litera z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;й&nbsp;Й</td>
+      <td style="height: 23px;">&nbsp;j J</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;к К</td>
+      <td style="height: 23px;">&nbsp;k K</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;л Л</td>
+      <td style="height: 23px;">&nbsp;ł Ł</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ль Ль</td>
+      <td style="height: 23px;">&nbsp;l L</td>
+      <td style="height: 23px;">&nbsp;L jest zmiękczeniem Ł</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;м М</td>
+      <td style="height: 23px;">&nbsp;m M</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;н&nbsp;Н</td>
+      <td style="height: 23px;">&nbsp;n N</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">нь Нь</td>
+      <td style="height: 23px;">ń Ń</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;о&nbsp;О</td>
+      <td style="height: 23px;">&nbsp;o O</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;п П</td>
+      <td style="height: 23px;">p P</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;р Р</td>
+      <td style="height: 23px;">r R</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;рь Рь</td>
+      <td style="height: 23px;">rz Rz</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">
+      <div>
+      <div>&nbsp;с С</div>
+      </div>
+      </td>
+      <td style="height: 23px;">s S</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;сь Сь</td>
+      <td style="height: 23px;">ś Ś</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;т Т</td>
+      <td style="height: 23px;">t T</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;у У</td>
+      <td style="height: 23px;">u U</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ф Ф</td>
+      <td style="height: 23px;">f F</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;х Х</td>
+      <td style="height: 23px;">ch Ch</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ц Ц</td>
+      <td style="height: 23px;">c C</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ць Ць</td>
+      <td style="height: 23px;">ć Ć</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ч Ч</td>
+      <td style="height: 23px;">cz Cz</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ш Ш</td>
+      <td style="height: 23px;">sz Sz</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;щ Щ</td>
+      <td style="height: 23px;">szcz Szcz</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;є Є</td>
+      <td style="height: 23px;">ie/je Ie/Je</td>
+      <td style="height: 23px;">Litera z języka Ukraińskiego</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;ю Ю</td>
+      <td style="height: 23px;">ju Ju</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">&nbsp;я Я</td>
+      <td style="height: 23px;">ja Ja</td>
+      <td style="height: 23px;">&nbsp;</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">ꙋ Ꙋ</td>
+      <td style="height: 23px;">&oacute; &Oacute;</td>
+      <td style="height: 23px;">Litera Historyczna</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">ѧ Ѧ</td>
+      <td style="height: 23px;">ę Ę</td>
+      <td style="height: 23px;">Litera Historyczna</td>
+      </tr>
+      <tr style="height: 23.5px;">
+      <td style="height: 23.5px;">ѩ Ѩ</td>
+      <td style="height: 23.5px;">ję Ję</td>
+      <td style="height: 23.5px;">Litera Historyczna</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">
+      <div>ѫ&nbsp;Ѫ</div>
+      </td>
+      <td style="height: 23px;">ą Ą</td>
+      <td style="height: 23px;">Litera Historyczna</td>
+      </tr>
+      <tr style="height: 23px;">
+      <td style="height: 23px;">ѭ Ѭ</td>
+      <td style="height: 23px;">ją Ją</td>
+      <td style="height: 23px;">Litera Historyczna</td>
+      </tr>
+      </tbody>
+    </table>
   </div>
 
 <!-- End Document
